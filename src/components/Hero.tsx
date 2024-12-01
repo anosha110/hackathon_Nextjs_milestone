@@ -23,16 +23,18 @@ const Hero = () => {
       </div>
 
      
-      <div className="flex-1 flex justify-center md:justify-end mt-6 md:mt-0">
-        <Image 
-          src="/images/pic.png.jpg" 
-          alt="Anosha Mohsin" 
-          width={260} 
-          height={260} 
-          className="object-cover rounded-[90%] mr-36" 
-        />
+      <div className="flex justify-center md:justify-end mt-6 md:mt-0">
+  <Image 
+    src="/images/pic.png.jpg" 
+    alt="Anosha Mohsin" 
+    width={260} 
+    height={260} 
+    className="object-cover rounded-[90%] my-0 mx-auto md:my-24 md:mr-36" 
+  />
+</div>
+
       </div>
-    </div>
+  
   )
 }
 

@@ -3,17 +3,20 @@ import Image from 'next/image'
 
 const About = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center justify-between py-12 px-4 md:px-6">
-    
-      <div className="flex-1 flex justify-center md:justify-start mb-6 md:mb-0">
-        <Image 
-          src="/images/pic.png.jpg" 
-          alt="Anosha Mohsin" 
-          width={260} 
-          height={260} 
-          className="object-cover ml-16" 
-        />
-      </div>
+   
+<div className="flex flex-col md:flex-row items-center justify-between py-12 px-4 md:px-6">
+  
+  <div className="flex-1 flex justify-center md:justify-start mb-6 md:mb-0">
+    <Image 
+      src="/images/pic.png.jpg" 
+      alt="Anosha Mohsin" 
+      width={260} 
+      height={260} 
+      className="object-cover mx-auto md:ml-16 rounded-[10px]" 
+    />
+  </div>
+
+
 
     
       <div className="flex-1 text-gray-800 text-center md:text-left">
